@@ -1,0 +1,11 @@
+# Runtime dependencies (mirrors pyproject.toml). Prefer: pip install -e ".[dev]"
+pdfplumber>=0.11,<0.12
+pytesseract>=0.3.10,<0.4
+Pillow>=10
+langchain-core>=1.0,<2
+langchain-text-splitters>=1.0,<2
+langchain-chroma>=1.0,<2
+langchain-ollama>=1.0,<2
+chromadb>=1.0,<2
+python-dotenv>=1.0,<2
+streamlit>=1.40,<2
